@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 27, 2019 at 11:39 AM
+-- Generation Time: Jun 27, 2019 at 11:50 AM
 -- Server version: 10.1.35-MariaDB
 -- PHP Version: 7.2.9
 
@@ -106,7 +106,7 @@ CREATE TABLE `blog_info` (
 
 INSERT INTO `blog_info` (`ID`, `BLOG_TITLE`, `BLOG_COMMENT_TABLE_NAME`, `BLOG_CATEGORY`, `BLOG_CONTENT`, `BLOG_DATE_TIME`, `BLOG_UPDATED`, `BLOG_PHOTOS_PATH`, `BLOG_AUTHOR`, `BLOG_TAGS`, `BLOG_STATUS`, `BLOG_RECOMMEND`, `BLOG_ADMIN_COMMENTS`, `BLOG_COMMENT_COUNT`) VALUES
 (21, 'SNOW PATROL FORCED TO WITHDRAW, THE CHARLATANS TO PLAY THAT SLOT', 21, 'Events', 'Unfortunately. Snow Patrol have been forced to cancel their 6.30pm Other Stage performance on Friday evening for medical reasons. The Charlatans will now be playing that slot.', '2019-06-25 17:00:00', '2019-06-27 14:21:22', '65728166_10157462984052072_336829567488491520_n.jpg', 'Glaston Bury Festivals', 'Packages-Holidays-', 'publish', 'N', 'I\'m just thankful to have been able to continue a tradition of seeing you guys live. The first time I took my oldest for her 7th Birthday present, and this past show, with my youngest, who is 9. You guys need to get better soon, so you will be rocking out, when we see you the next album!', 2),
-(22, 'ENGLAND WOMEN\'S WORLD CUP GAME TO BE SHOWN ON WEST HOLTS SCREENS', 22, 'Sports', 'We are delighted to be able to announce that â€“ of course! â€“ we\'ll be screening The Lionesses\' big Women\'s World Cup quarter-final match. England vs Norway, Thursday evening, on the West Holts Stage\'s big screens. Kick-off is at 8pm. We\'ll see you there!', '2019-06-25 14:00:00', '2019-06-27 14:31:57', 'england.jpg', 'Glaston Bury', 'Entertainment-', 'publish', 'Y', 'Thursday evening, on the West Holts Stage\'s big screens. Kick-off is at 8pm. We\'ll see you there!', 0);
+(22, 'ENGLAND WOMEN\'S WORLD CUP GAME TO BE SHOWN ON WEST HOLTS SCREENS', 22, 'Sports', 'We are delighted to be able to announce that â€“ of course! â€“ we\'ll be screening The Lionesses\' big Women\'s World Cup quarter-final match. England vs Norway, Thursday evening, on the West Holts Stage\'s big screens. Kick-off is at 8pm. We\'ll see you there!', '2019-06-25 14:00:00', '2019-06-27 14:31:57', 'england.jpg', 'Glaston Bury', 'Entertainment-', 'publish', 'Y', 'Thursday evening, on the West Holts Stage\'s big screens. Kick-off is at 8pm. We\'ll see you there!'', 0);
 
 -- --------------------------------------------------------
 
