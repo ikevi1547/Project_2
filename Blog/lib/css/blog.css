@@ -1,0 +1,199 @@
+/* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+.row.content {height: 1500px}
+
+/* Set black background color, white text and some padding */
+footer {
+    background-color: whitesmoke;
+    color: gray;
+    padding: 10px;
+  }
+
+/* Set gray background color and 100% height */
+.sidenav {
+    background-color: #f1f1f1;
+    height: 100%;
+  }
+
+ /* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+    .sidenav {
+      height: auto;
+      padding: 15px;
+    }
+    .row.content {height: auto;} 
+  }
+/*Setting Body Font-Default Style*/
+body
+{
+    font-family: monospace,'Courier New', Courier;
+}
+
+.content_wrapper
+{
+    margin: 3rem;
+    clear: both;
+    position: relative;
+    top: 1rem;
+}
+#alertPage
+{
+    display: none;
+    background: whitesmoke;
+    position: fixed;
+    top: 0px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.9;
+    z-index: 100;
+}
+#alertcontent
+{
+    display: none;
+    background: whitesmoke;
+    position: fixed;
+    top: 0px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.9;
+    z-index: 100;
+}
+#alertcontent_err
+{
+    background: whitesmoke;
+    position: fixed;
+    top: 0px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.9;
+    z-index: 100;
+}
+#error
+{
+    display: none;
+}
+#success
+{
+    display: none;
+}
+#alertBox #box
+{
+    display: none;
+    margin: 0% 20%;
+    padding: 40px;
+    background: whitesmoke;
+    position: relative;
+    top: -300px;
+    z-index: 100;
+}
+#alertBoxerr #box_err
+{
+    padding: 40px;
+    margin: 0 auto;
+    width: 100%;
+    background: whitesmoke;
+    position: fixed;
+    top: 0px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    max-height: 100%;
+    z-index: 100;
+    overflow: scroll;
+}
+
+#alertBox #box_main
+{
+    display: none;
+    padding: 40px;
+    margin: 0 auto;
+    width: 100%;
+    background: whitesmoke;
+    position: fixed;
+    top: 0px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    max-height: 100%;
+    z-index: 100;
+    overflow: scroll;
+}
+@media (max-width: 768px)
+{
+    #alertBox
+    {
+        margin: 0 auto;
+    }
+    #alertBoxerr
+    {
+        margin: 0 auto;
+    }
+    #alertBox #box
+    {
+        display: none;
+        padding: 40px;
+        margin: 0 auto;
+        width: 100%;
+        background: whitesmoke;
+        position: fixed;
+        top: 0px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        max-height: 100%;
+        z-index: 100;
+        overflow: scroll;
+    }
+    #alertPage
+    {
+        opacity: 0.98;
+    }
+    #alertcontent
+    {
+        opacity: 0.98;
+    }
+    #alertcontent_err
+    {
+        opacity: 0.98;
+    }
+}
+
+#edit_blog{
+    display: none;
+}
+.pop_up_disp {
+    background: lavender; 
+    font-family: monospace;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    max-height: auto;
+    min-height: auto;
+    margin-left: 100px;
+    margin-right: 100px;
+    overflow: scroll;
+    position: fixed;
+    overflow-x: hidden;
+    border-radius: 10px;
+    z-index: 1500;
+  }
+
+  .panel-body p{
+    max-width: auto;
+    max-height: auto;
+    white-space: no-wrap;
+    overflow: hidden;
+    overflow-wrap: break-word;
+    text-overflow: ellipsis;
+  }
+  .content-panel{
+    max-width: auto;
+    max-height: auto;
+    white-space: no-wrap;
+    overflow: hidden;
+    overflow-wrap: break-word;
+    text-overflow: ellipsis;
+  }
